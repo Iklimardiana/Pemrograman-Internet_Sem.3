@@ -1,0 +1,77 @@
+<html>
+<div style="background-color: 2F5D62">
+    <head>
+        <title> Formulir </title>
+    </head>
+    <body>
+    <table style ="border-color : 00303F" border="2" width ="900px" align ="center">
+        <tr>
+            <td colspan="6" height ="100px" bgcolor="DFEEEA"><h1 style = "font-family:bebas neue; color:2F5D62;" align ="center" valign ="bottom"> formulir data mahasiswa </h1>
+            </td>
+        </tr>
+        <tr>
+            <td style "margin:auto;" bgcolor ="A7C4BC" valign ="top">
+            <table>
+            <fieldset>
+                <legend align="center" style=" font-family: bebas neue; color: 2F5D62;"><h2>profil diri</h2></legend>
+                    <form action="data.php " method="POST" style="margin: 10px;">
+                        
+                        <label for="name">Nama:</label><br>
+                        <input type="text" id="name" name="name"><br>
+
+                        <br>Jenis Kelamin<br>
+                        <input type="radio" id="laki" value="Laki-laki">
+                        <label for="laki">Laki-laki</label><br>
+                        <input type="radio" id="perempuan" value="Perempuan">
+                        <label for="perempuan">Perempuan</label><br><br>
+
+                        <label for="tanggal">Tanggal lahir:</label><br>
+                        <input type="date" id="tanggal"><br><br>
+
+                        <label for="alamat">Alamat:</label><br>
+                        <textarea name="alamat" id="alamat" cols="30" rows="10"></textarea><br><br>
+
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email"><br><br>
+
+                        <label for="hp">No HP:</label><br>
+                        <input type="text" id="hp"><br><br>
+                    </form>
+                </legend>
+                </fieldset>
+
+                <br><fieldset>
+                    <legend align="center" style="font-family: bebas neue;color: 2F5D62"><h2>pendidikan</h2></legend>
+                    <label for="sekolah">Asal Sekolah:</label><br>
+                    <input type="text" id="sekolah"><br><br>
+                    <label for="nilai">Nilai ujian sekolah:</label><br>
+                    <input type="number" id="nilai"><br><br>
+                </fieldset><br><br>
+
+                <fieldset>
+                    <legend align="center" style="font-family :bebas neue; color: 2F5D62"><h2>orang tua</h2></legend>
+                    <label for="ayah">Nama Ayah:</label><br>
+                    <input type="text" id="ayah"><br><br>
+
+                    <label for="ibu">Nama Ibu:</label><br>
+                    <input type="text" id="ibu"><br><br>
+
+                    <label for="alamat ortu">Alamat Orang tua</label><br>
+                    <textarea name="alamat ortu" id="alamat" cols="30" rows="10"></textarea><br><br>
+                </fieldset><br><br>
+                        
+                <fieldset>
+                    <legend align="center" style="font-family : bebas neue; color: 2F5D62"><h2>foto</h2></legend>
+                    <label for="foto">Upload Foto disini: </label><br>
+                    <input type="file" id="foto" value="upload gambar"/><br><br>
+                </fieldset> <br><br>
+                <div class="submit" align="center">
+                <input type="submit" value="submit" style="font-family: bebas neue;"><br>
+            </div>
+            <br>
+            </td>
+        </tr>
+    </table>
+    </body>
+<div>
+</html>
