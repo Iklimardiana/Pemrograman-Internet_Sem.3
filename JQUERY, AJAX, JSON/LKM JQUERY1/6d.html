@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>(6d)LKM jQuery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $("input").focus(function(){ 
+            $(this).css("background-color", "yellow"); 
+        });
+        $("input").blur(function(){
+            $(this).css("background-color", "green")
+        })
+    });
+    </script>
+</head>
+<body>
+
+    Nama    : <input type="text" name="fullname"><br>
+    E-mail  : <input type="text" name="email">
+</body>
+</html>

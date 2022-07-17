@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#btn1").click(function(){
+                    $("#test1").text("Hello World!");
+                });
+                $("#btn2").click(function(){
+                    $("#test2").html("<b>Hello World!</b>");
+                });
+                $("#btn3").click(function(){
+                    $("#test3").val("Jumat");
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <p id="test1">Belajar Web Programming akan sangat berguna</p>
+        <p id="test2">Namun agar mahir, kita harus banyak berlatih</p>
+    
+        <p>Hari ini : <input type="text" id="test3" value="Mickey Mouse"></p>
+    
+        <button id="btn1">Set Text</button>
+        <button id="btn2">Set HTML</button>
+        <button id="btn3">Set Value</button>
+    </body>
+    </html>
