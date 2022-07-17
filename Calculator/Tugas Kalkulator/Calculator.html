@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator_2008765_Iklima Mardiana</title>
+    <link rel="stylesheet" type="text/css" href="Stylecalc.css">
+    <script type="text/javascript" src="Calculator.js"></script>
+</head>
+<body>
+    <div class="container">
+        <input id = "identitas" type="text" readonly placeholder="Calculator_Iklima Mardiana_2008765">
+        <div class="calculator">
+            <input id="box" type="text" readonly placeholder="0"><br/>
+            <div class = "button-bg">
+                
+                    <button class="tombol" onclick="show('1')"><strong>1</strong></button>
+                    <button class="tombol" onclick="show('2')"><strong>2</strong></button>
+                    <button class="tombol" onclick="show('3')"><strong>3</strong></button>
+                    <button class="tombol" onclick="backspace()"><strong>C</strong></button>
+             
+                    <button class="tombol" onclick="show('4')"><strong>4</strong></button>
+                    <button class="tombol" onclick="show('5')"><strong>5</strong></button>
+                    <button class="tombol" onclick="show('6')"><strong>6</strong></button>
+                    <button class="tombol" onclick="show('+')"><strong>+</strong></button>
+                
+                    <button class="tombol" onclick="show('7')"><strong>7</strong></button>
+                    <button class="tombol" onclick="show('8')"><strong>8</strong></button>
+                    <button class="tombol" onclick="show('9')"><strong>9</strong></button>
+                    <button class="tombol" onclick="show('-')"><strong>-</strong></button>
+             
+                    
+                    <button class="tombol" onclick="zero()"><strong>0</strong></button>
+                    <button class="tombol" onclick="show('.')"><strong>.</strong></button>
+                    <button class="tombol" onclick="show('/')"><strong>/</strong></button>
+                    <button class="tombol" onclick="show('*')"><strong>X</strong></button>
+            
+                    <button class="tombol_lebar" onclick="clearme()"><strong>AC</strong></button>
+                    <button class="tombol_lebar" onclick="solve()"><strong>=</strong></button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

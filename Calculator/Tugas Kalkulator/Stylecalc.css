@@ -1,0 +1,88 @@
+body {
+    background: bisque;
+}
+
+.container {
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.calculator {
+    padding: 20px;
+    background: rgb(236, 102, 102);
+    width: 310px;
+    border-radius: 20px;
+    margin-top: 10vmin;
+    /*offset-X | offset-Y | Blur radius | speed radius*/
+    box-shadow: 0 0 8px 10px rgb(179, 94, 94);
+}
+
+#identitas {
+    width: 92%;
+    height: 40px;
+    border: none;
+    background: rgb(236, 227, 227);
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#box {
+    width: 92%;
+    height: 60px;
+    border: none;
+    background: rgb(236, 227, 227);
+    border-radius: 4px;
+    font-size: 40px;
+    text-align: right;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.button-bg {
+    margin: 10px;
+    background: transparent;
+}
+
+.tombol {
+    height: 60px;
+    width: 60px;
+    padding: 1px;
+    background: rgb(245, 218, 218);
+    border: 2px solid rgb(187, 3, 3);
+    margin: 4.5px;
+    font-size: 15px;
+    border-radius: 10px;
+    color: black;
+    outline: auto;
+    font-size: 20px;
+    box-shadow: inset 0 -5px 10px 2px #6b756a, 0 5px 10px 0px #3f423f;
+}
+
+.tombol:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.tombol_lebar {
+    height: 60px;
+    width: 132px;
+    padding: 1px;
+    background: rgb(245, 218, 218);
+    border: 2px solid rgb(187, 3, 3);
+    margin: 4.5px;
+    font-size: 15px;
+    border-radius: 10px;
+    color: black;
+    outline: auto;
+    font-size: 20px;
+    box-shadow: inset 0 -5px 10px 2px #6b756a, 0 5px 10px 0px #3f423f;
+}
+
+.tombol_lebar:hover {
+    background-color: white;
+}
